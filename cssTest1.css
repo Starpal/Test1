@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: aquamarine;
+}
+
+nav {
+    height: 80px;
+    background-color: tomato;
+}
+
+section {
+    background-color: yellow;
+}
+
+section > article {
+    background-color: orange;
+}
+
+aside {
+    background-color: beige;
+    display: inline-block;
+}
+
+footer {
+    background-color: lightskyblue;
+}
